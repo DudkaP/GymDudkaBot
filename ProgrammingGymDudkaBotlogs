@@ -1,0 +1,8 @@
+2022-10-06 12:09:02,182 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 16572 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:09:02,184 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:09:03,214 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.295 seconds (JVM running for 2.063)
+2022-10-06 12:09:33,220 INFO com.dudka.GymDudkaBot.service.TelegramBot [GymDudka Telegram Executor] Replied to user Павло
+2022-10-06 12:10:46,100 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 18364 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:10:46,103 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:10:47,416 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.676 seconds (JVM running for 2.532)
+2022-10-06 12:10:56,772 INFO com.dudka.GymDudkaBot.service.TelegramBot [GymDudka Telegram Executor] Replied to user Павло

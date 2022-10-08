@@ -1,0 +1,107 @@
+2022-10-06 12:14:08,916 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 6916 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:14:08,919 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:14:10,222 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.67 seconds (JVM running for 2.671)
+2022-10-06 12:14:16,011 INFO com.dudka.GymDudkaBot.service.TelegramBot [GymDudka Telegram Executor] Replied to user Павло
+2022-10-06 12:18:10,696 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 7492 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:18:10,700 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:18:12,004 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.665 seconds (JVM running for 2.57)
+2022-10-06 12:18:14,972 INFO com.dudka.GymDudkaBot.service.TelegramBot [GymDudka Telegram Executor] Replied to user Павло
+2022-10-06 12:18:28,142 INFO com.dudka.GymDudkaBot.service.TelegramBot [GymDudka Telegram Executor] Replied to user Павло
+2022-10-06 12:37:32,551 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 2548 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:37:32,554 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:37:33,054 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-06 12:37:33,073 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-10-06 12:37:33,334 WARN org.springframework.context.annotation.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-06 12:37:33,343 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-06 12:37:33,364 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-10-06 12:38:20,577 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 2600 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:38:20,579 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:38:21,042 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-06 12:38:21,058 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-10-06 12:38:21,320 WARN org.springframework.context.annotation.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-06 12:38:21,329 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-06 12:38:21,351 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-10-06 12:38:54,334 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 10328 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:38:54,337 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:38:54,798 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-06 12:38:54,815 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-10-06 12:38:55,076 WARN org.springframework.context.annotation.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-10-06 12:38:55,085 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-06 12:38:55,106 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-10-06 12:39:16,492 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 3652 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:39:16,495 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:39:17,797 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.67 seconds (JVM running for 2.511)
+2022-10-06 12:39:18,037 INFO com.dudka.GymDudkaBot.service.TelegramBot [GymDudka Telegram Executor] Replied to user Павло
+2022-10-06 12:39:49,313 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 5136 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:39:49,315 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:39:50,671 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.719 seconds (JVM running for 2.577)
+2022-10-06 12:39:54,231 INFO com.dudka.GymDudkaBot.service.TelegramBot [GymDudka Telegram Executor] Replied to user Павло
+2022-10-06 12:49:43,492 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 18980 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 12:49:43,494 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:49:44,708 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.548 seconds (JVM running for 2.333)
+2022-10-06 14:04:58,981 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 21332 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 14:04:58,984 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 14:05:00,417 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.788 seconds (JVM running for 2.631)
+2022-10-06 14:11:39,948 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Starting GymDudkaBotApplication using Java 19 on dudka_note with PID 428 (E:\Programming\GymDudkaBot\target\classes started by dudka in E:\Programming\GymDudkaBot)
+2022-10-06 14:11:39,950 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 14:11:41,283 INFO com.dudka.GymDudkaBot.GymDudkaBotApplication [main] Started GymDudkaBotApplication in 1.681 seconds (JVM running for 2.471)
